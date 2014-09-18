@@ -1,0 +1,83 @@
+/*
+Theme Name: HARRP
+Description: Avada child theme for HARRP
+Author: Edge Multimedia
+Template: Avada
+*/
+
+@import url("../Avada/style.css");
+
+
+/* ----- COLORS ----- */
+
+body a:hover { color: #005881; }
+
+
+/* ----- HEADER ----- */
+
+body #header.sticky-header.sticky { padding: 10px 0; }
+
+
+/* ----- NAVIGATION ----- */
+
+#nav > li.menu-item > a { margin-bottom: -1px; padding-bottom: 1px; }
+#nav ul.menu ul.sub-menu { top: 97px; }
+
+
+/* ----- SLIDER ----- */
+
+
+/* ----- CONTENT ----- */
+
+.post-content h2, .post-content h3, .post-content h4 { font-weight: bold !important; }
+
+a.form_format_link { margin-left: 10px; }
+
+.harrp_list .highlighted { color: #f00; }
+
+
+/* ----- ASIDE ----- */
+
+.side-nav > li > a, ul.sideNav > .sideNav-item > .sideNav-link { padding-right: 30px !important; text-align: right; }
+
+
+/* ----- FOOTER ----- */
+.footer-area, .footer-area a { text-shadow: 1px 1px 1px #000; }
+.footer-area > .avada-row a:hover, #wrapper .footer-area > .avada-row .current_page_item a, #wrapper .footer-area > .avada-row .current-menu-item a { color: #fff !important; }
+.footer-area > .avada-row a:hover { text-shadow: none; }
+
+.footer-area h3 { margin-bottom: 18px; }
+.col > .contact_info > p { margin-bottom: 8px; }
+
+.footer-area ul.sub-menu { display: none; }
+
+.footer-area ul li a { background-image: url('images/bg-line.gif'); }
+.footer-area .footer-widget-col ul:first-child > li:first-child > a, .footer-area .footer-widget-col > ul > li:first-child > a { background: none; }
+
+/* ----- LOCATIONS ----- */
+
+
+/* ----- MEDIA ----- */
+@media (max-width: 1024px) {
+
+}
+
+
+@media (max-width: 979px) and (min-width: 768px) {
+
+}
+
+
+@media (max-width: 979px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (max-width: 500px) {
+
+}
